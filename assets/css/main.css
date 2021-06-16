@@ -1191,21 +1191,44 @@ background-color:   #ffff;
 }
 
 .bg-value {
+
   background-image: url('../img/valueofcs/valueofcs2.png');
-  width: 49%;
-  margin: auto;
+  background-size: cover;
+  margin-right: 5px;
+  border-top-right-radius:20px; 
+  border-bottom-right-radius:20px; 
+  width: 50%;
+}
+
+.bg-value2 {
+  
+  background-image: url('../img/valueofcs/valueofcs1.png');
+  background-size: cover;
+  margin-left: 5px;
+  border-top-left-radius:20px; 
+  border-bottom-left-radius:20px; 
+  width: 50%;
+
+  
+}
+
+/*.bg-value {
+  background-image: url('../img/valueofcs/valueofcs2.png');
+  width: 50%;
+ 
   background-size: cover;
   border-bottom-right-radius: 20px;
+
 }
 
 .bg-value2 {
   background-image: url('../img/valueofcs/valueofcs1.png');
-  width: 49%;
-  margin: auto;
+  width: 50%;
+  background-position: right;
   background-size: cover;
   border-bottom-left-radius: 20px;
 }
-
+*/
 
 
 
