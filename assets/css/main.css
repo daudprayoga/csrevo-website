@@ -1253,11 +1253,49 @@ background-color: #e5e5e5;
  .about-section .social-content-wrapper p {
     line-height: 26px;
     color: #6A7C92; 
+
   }
 
+.about-solution .about-solution-content .about-solution-img img {
+width: 100%;
+padding: 0;
+margin-left: 12px;
+
+} 
+
+.about-solution .about-solution-content .about-solution-title h4 {
+  font-size: 40px;
+  color: #262626;
+  
+  font-weight: 600;
+}
+
+.about-solution .about-solution-content .about-solution-title p {
+
+color: #6A7C92;
+
+}
 
 .whyus h4 {
   color: #ec1946;
+}
+
+.about-social .about-social-content .about-social-img img {
+width: 100%;
+padding: 0;
+margin-left: 12px;
+} 
+
+.about-social .about-social-content .about-social-title h4 {
+  font-size: 36px;
+  color: #262626;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.about-social .about-social-content .about-social-title p {
+padding-top: 20px;
+color: #6A7C92;
 }
 
 /*===========================
@@ -1352,6 +1390,27 @@ background-color: #e5e5e5;
     Our Method
 ===========================*/
 
+.ourmethod-section h4 {
+   color: #ec1946;
+}
+
+.ourmethod-section button.active {
+  color: #fff;
+    background: linear-gradient(to left, #4d2a90 0%, #4d2a90 50.39%, #2b0770 100%);
+    background-size: 200%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.workflow .workflow-title h2 {
+color: #262626;
+padding: 20px 0; 
+}
+
+.recruitmentflow .workflow-title h2 {
+color: #262626;
+padding: 20px 0; 
+}
+
 .workflow .workflow-content-left img {
   width: 50%;
 }
@@ -1363,16 +1422,19 @@ background-color: #e5e5e5;
 
 .workflow .workflow-content-left h4 {
   padding: 20px;
+  color: #ec1946;
 }
 
 .workflow .workflow-content-center h4 {
   padding: 15px;
+  color: #ec1946;
 }
 .workflow .workflow-content-center p {
   padding: 10px;
 }
 .workflow .workflow-content-right h4 {
   padding: 20px;
+  color: #ec1946;
 }
 
 .workflow .workflow-content-center {
@@ -1419,6 +1481,94 @@ border-bottom-left-radius: 15px;
 }
 
 
+
+.recruitmentflow .about-recruitmentflow-left img {
+  width: 25%;
+  margin-top:  50px;
+}
+.recruitmentflow .about-recruitmentflow-left h3 {
+padding-top: 20px;
+    width: 60%;
+    margin: auto;
+
+}
+
+.recruitmentflow .about-recruitmentflow-right img {
+  width: 25%;
+  padding-top:  50px;
+}
+
+.recruitmentflow .about-recruitmentflow-right h3 {
+  padding-top: 20px;
+  width: 65%;
+  margin: auto;
+
+}
+
+.recruitmentflow .about-recruitmentflow-right p {
+  margin-bottom: 80px;
+  margin-top: 20px;
+
+}
+
+.recruitmentflow .about-recruitmentflow-left p {
+   margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.recruitmentflow .about-recruitmentflow-right h3 {
+  color: #262626;
+}
+
+.recruitmentflow .about-recruitmentflow-left h3 {
+  color: #262626;
+}
+
+.recruitmentflow .about-recruitmentflow-left {
+  margin: 0;
+  
+}
+.recruitmentflow .about-recruitmentflow-right {
+  margin: 0;
+
+}
+
+.recruitmentflow .about-recruitmentflow-right .recruitmentflow-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #ebebeb;
+}
+
+.recruitmentflow .about-recruitmentflow-right .recruitmentflow-middle {
+  background-color: #ebebeb;
+}
+
+.recruitmentflow .about-recruitmentflow-right .recruitmentflow-bottom {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ebebeb;
+}
+
+.recruitmentflow .about-recruitmentflow-left .recruitmentflow-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #ebebeb;
+}
+
+.recruitmentflow .about-recruitmentflow-left .recruitmentflow-middle {
+  background-color: #ebebeb;
+}
+
+
+.recruitmentflow .about-recruitmentflow-left .recruitmentflow-bottom {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ebebeb;
+}
+
+
+
+
 */===========================
     04. About CSS 
 ===========================
@@ -1443,7 +1593,7 @@ border-bottom-left-radius: 15px;
   position: absolute;
   right: 0px;
   width: 50%;
-  transform: translateY(-10%);
+  transform: translateY(-34%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1459,7 +1609,7 @@ border-bottom-left-radius: 15px;
 @media (max-width: 767px) {
   .about-section .about-img-wrapper {
     position: relative;
-    top: 0;
+    top: -145px;
     transform: translateY(0);
     width: 100%;
     margin-bottom: 50px;
