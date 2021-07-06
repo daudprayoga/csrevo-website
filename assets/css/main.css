@@ -1067,6 +1067,9 @@ p {
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: -93px 0px;
+  border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
 
 }
 
@@ -1075,6 +1078,9 @@ p {
   background-size: cover;
   background-repeat: no-repeat; 
    background-position: 10px  0px;
+     border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
 
 }
 
@@ -1099,6 +1105,7 @@ color: white;
 width: 80%;
 margin: 10px auto;
 color: white;
+
 }
 
 .bg-value-left h4 {
