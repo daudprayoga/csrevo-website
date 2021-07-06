@@ -1116,10 +1116,16 @@ color: white;
 .value-left {
     padding-top: 50px;
     padding-bottom: 137px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
 }
 .value-right {
     padding-top: 50px;
     padding-bottom: 155px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
 }
 
 .value-section .section-title span {
@@ -1289,7 +1295,6 @@ margin-left: 12px;
 .about-social .about-social-content .about-social-title h4 {
   font-size: 36px;
   color: #262626;
-  padding-top: 100px;
   font-weight: 600;
 }
 
